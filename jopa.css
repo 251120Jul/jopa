@@ -4,14 +4,14 @@ html, body {
   font-family: 'Open Sans', sans-serif;
   height: 100%;
   margin: 0;
-  background-color: red;
+  background-color: white;
 }
 .box {
     width: 80%;
-    position: absolute;
+    position: centre;
     margin: auto;
   overflow: auto;
-}
+  }
 #main {
  width: 100%;
  padding: 0;
@@ -32,11 +32,12 @@ html, body {
  font-family: 'Oswald', sans-serif;
  font-size: 24px;
  font-weight: 400;
- text-transform: uppercase;
+ text-transform: center;
  color: black;
  padding: 0;
  margin: 0;
 }
+
 #landing h2 {
  font-family: 'Oswald', sans-serif;
  font-size: 70px;
@@ -48,13 +49,14 @@ html, body {
  z-index: 10;
  opacity: .9;
 }
+
 #landing h3 {
  font-family: 'Oswald', sans-serif;
  font-size: 14px;
  line-height: 0;
  font-weight: 400;
  letter-spacing: 8px;
- text-transform: uppercase;
+ text-transform: center;
  color: black;
 }
 #landing p {
@@ -75,17 +77,11 @@ html, body {
 }
 #landing .title {
  background: white;
- paddin
- g: 60px;
- margin: 0 auto;
- text-align: center;
-}
-#landing .title {
- background: white;
  padding: 60px;
  margin: 0 auto;
  text-align: center;
 }
+
 #landing .title h1 {
  font-size: 35px;
  letter-spacing: 8px;
@@ -97,6 +93,7 @@ html, body {
  margin: 0 auto;
  text-align: justify;
 }
+
 #landing .block-gray {
  background: #f2f2f2;
  padding: 6px;
@@ -107,7 +104,7 @@ html, body {
  left: 0;
  width: 100%;
  height: 100%;
- background-color: black;
+ background-color: white;
  opacity: 0.70;
 }
 #landing .parallax-one {
@@ -116,7 +113,45 @@ html, body {
  overflow: hidden;
  position: relative;
  width: 100%;
- background-image: url("https://sites.google.com/site/konoplevmedia/coverstart2.png");
+ background-image: url("https://raw.githubusercontent.com/251120Jul/jopa/main/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D1%80.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+#landing .line-break {
+ background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
+}
+#landing .parallax-two {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/251120Jul/jopa/main/%D0%BB%D0%BE%D0%B3%D0%BE%D1%82%D0%B8%D1%80.jpg");
+ background-attachment: fixed;
+ background-size: cover;
+ -moz-background-size: cover;
+ -webkit-background-size: cover;
+ background-repeat: no-repeat;
+ background-position: top center;
+}
+#landing .line-break {
+ background: linear-gradient(60deg, #008000, #ffd700, #dc143c);
+ width: 100%;
+ margin: 0 auto;
+}
+#landing .parallax-three {
+ padding-top: 200px;
+ padding-bottom: 200px;
+ overflow: hidden;
+ position: relative;
+ width: 100%;
+ background-image: url("https://raw.githubusercontent.com/251120Jul/jopa/main/2023-02-14_12-33-12.png");
  background-attachment: fixed;
  background-size: cover;
  -moz-background-size: cover;
